@@ -2,8 +2,10 @@
 :root{
     --pink:#E20088;
     --purple:#4E53A5;
-    --gradient:linear-gradient(72deg, var(--pink), var(--purple));
-}
+    --getStarted: linear-gradient(92.81deg, #E20088 39.07%, #4E53A5 162.03%),
+    linear-gradient(0deg, #FEFEFE, #FEFEFE);
+    --btnBackground: linear-gradient(92.81deg, #E20088 39.07%, #4E53A5 162.03%),
+    linear-gradient(0deg, #FEFEFE, #FEFEFE);}
 *{
     margin: 0;
     padding: 0;
@@ -34,7 +36,7 @@ header .help{
     font-weight: 700;
 }
 header .get-started{
-    background:var(--gradient);
+    background:var(--getStarted);
     padding:1rem 1.3rem;
     border-radius: 1.6rem;
     color: #FFF;
@@ -85,7 +87,7 @@ main form .input-box textarea{
     resize: none;
 }
 main form button{
-    background: var(--gradient);
+    background: var(--btnBackground);
     color: #FFF;
     padding: 1rem 8rem;
     border-radius: 2rem;
