@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+:root{
+    --pink:#E20088;
+    --purple:#4E53A5;
+    --gradient:linear-gradient(72deg, var(--pink), var(--purple));
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    overflow-x: hidden;
+    font-family: 'Inter', sans-serif;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 86%;
+    margin:0.8rem auto 1.8rem;
+}
+header a{
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.015em;
+    margin-right: 1.6rem;
+}
+header .help{
+    color: #E20088;
+    font-weight: 700;
+}
+header .get-started{
+    background:var(--gradient);
+    padding:1rem 1.3rem;
+    border-radius: 1.6rem;
+    color: #FFF;
+    margin-right: 0;
+    font-weight: 700;
+}
+main{
+    background: url(./images/top-bg.png) no-repeat;
+    text-align: center;
+}
+main .heading{
+    padding: 7rem 0 4rem;
+    color: #FFF;
+}
+main .heading h2{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: 0em;
+
+}
+main .heading p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0px;
+}
+main form{
+    width: 35rem;
+    margin:0 auto 2rem;
+    padding: 3.5rem 0;
+    background-color: #fff;
+    border-radius: .5rem;
+    box-shadow: 0 .5rem 1rem rgba(34, 34, 34, 0.1);
+}
+main form .input-box{
+    width: 26rem;
+    margin:0 auto ;
+    text-align: left;
+    padding:1rem 0 ;
+} 
+main form .input-box input, main form .input-box textarea{
+    width: 100%;
+    margin:.8rem 0;
+    padding:.5rem 0;
+}
+main form .input-box textarea{
+    resize: none;
+}
+main form button{
+    background: var(--gradient);
+    color: #FFF;
+    padding: 1rem 8rem;
+    border-radius: 2rem;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
+main form .input-box input::placeholder, main form .input-box textarea::placeholder{
+    padding: .3rem .5rem;
+}
+main .social-links{
+    padding:1.5rem 0;
+}
+main .social-links img{
+    margin-right: 1rem;
+}
+footer{
+    background: url(./images/bottom-bg.png) no-repeat;
+    background-size: cover;
+    min-height: 25rem;
+}
+footer .contents{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 12rem 0 0;
+}
+footer .contents .quick-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;    
+}
+footer .contents .quick-links a{
+    color: #fff;
+    margin-right: 1rem;
+    text-decoration: none;
+}
+footer p{
+    color: #fff;
+    margin-top: 1.8rem;
+}
+main p:nth-of-type(2){
+    margin-bottom: 3.5rem;
+}
+
